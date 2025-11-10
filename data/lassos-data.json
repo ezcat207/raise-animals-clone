@@ -1,0 +1,202 @@
+{
+  "page": "lassos",
+  "source_url": "https://raiseanimals.com/lassos",
+  "extracted_date": "2025-01-09",
+  "metadata": {
+    "title": "Raise Animals Lassos - Complete Guide",
+    "description": "Complete guide to all 15 lassos in Raise Animals. Learn about catching mechanics, lasso progression, and the best strategies.",
+    "heading": "All Lassos in Raise Animals",
+    "introduction": "Master the art of catching with our complete lasso guide. From basic ropes to legendary tools, find the perfect lasso for every animal."
+  },
+  "lassos": [
+    {
+      "tier": 1,
+      "name": "Old Lasso",
+      "rarity": "Common",
+      "power": "Basic",
+      "cost": "Starting item",
+      "costType": "free",
+      "costValue": 0,
+      "description": "Your starting lasso. Perfect for catching common animals in the early game.",
+      "image": "/images/lassos/old-lasso.jpg"
+    },
+    {
+      "tier": 2,
+      "name": "Rusty Rope",
+      "rarity": "Common",
+      "power": "Low",
+      "cost": "50 cash",
+      "costType": "cash",
+      "costValue": 50,
+      "description": "A slight upgrade from the old lasso. Catches basic animals more easily.",
+      "image": "/images/lassos/rusty-rope.jpg"
+    },
+    {
+      "tier": 3,
+      "name": "Wooden Rope",
+      "rarity": "Common",
+      "power": "Low",
+      "cost": "150 cash",
+      "costType": "cash",
+      "costValue": 150,
+      "description": "Sturdy wooden construction helps catch common animals reliably.",
+      "image": "/images/lassos/wooden-rope.jpg"
+    },
+    {
+      "tier": 4,
+      "name": "Hunter Loop",
+      "rarity": "Uncommon",
+      "power": "Medium",
+      "cost": "500 cash",
+      "costType": "cash",
+      "costValue": 500,
+      "description": "Your first uncommon lasso. Effective for uncommon animals.",
+      "image": "/images/lassos/hunter-loop.jpg"
+    },
+    {
+      "tier": 5,
+      "name": "Iron Loop",
+      "rarity": "Uncommon",
+      "power": "Medium",
+      "cost": "1,500 cash",
+      "costType": "cash",
+      "costValue": 1500,
+      "description": "Iron reinforcement provides better catch rates for uncommon animals.",
+      "image": "/images/lassos/iron-loop.jpg"
+    },
+    {
+      "tier": 6,
+      "name": "Steel Lasso",
+      "rarity": "Rare",
+      "power": "High",
+      "cost": "5,000 cash",
+      "costType": "cash",
+      "costValue": 5000,
+      "description": "High-quality steel makes catching rare animals possible.",
+      "image": "/images/lassos/steel-lasso.jpg"
+    },
+    {
+      "tier": 7,
+      "name": "Phantom Rope",
+      "rarity": "Rare",
+      "power": "High",
+      "cost": "15,000 cash",
+      "costType": "cash",
+      "costValue": 15000,
+      "description": "Mystical properties enhance your catching abilities for rare creatures.",
+      "image": "/images/lassos/phantom-rope.jpg"
+    },
+    {
+      "tier": 8,
+      "name": "Shadow Rope",
+      "rarity": "Epic",
+      "power": "Very High",
+      "cost": "50,000 cash",
+      "costType": "cash",
+      "costValue": 50000,
+      "description": "Infused with shadow energy, perfect for epic-tier animals.",
+      "image": "/images/lassos/shadow-rope.jpg"
+    },
+    {
+      "tier": 9,
+      "name": "Spirit Loop",
+      "rarity": "Epic",
+      "power": "Very High",
+      "cost": "150,000 cash",
+      "costType": "cash",
+      "costValue": 150000,
+      "description": "Spiritual essence increases success rate on difficult catches.",
+      "image": "/images/lassos/spirit-loop.jpg"
+    },
+    {
+      "tier": 10,
+      "name": "Dragon Loop",
+      "rarity": "Legendary",
+      "power": "Extreme",
+      "cost": "500,000 cash",
+      "costType": "cash",
+      "costValue": 500000,
+      "description": "Dragon-forged power enables catching legendary creatures.",
+      "image": "/images/lassos/dragon-loop.jpg"
+    },
+    {
+      "tier": 11,
+      "name": "Crystal Lasso",
+      "rarity": "Legendary",
+      "power": "Extreme",
+      "cost": "1.5M cash or 250 rubies",
+      "costType": "both",
+      "costValue": 1500000,
+      "costValueRubies": 250,
+      "description": "Flexible payment option. Great value for legendary-tier catching.",
+      "image": "/images/lassos/crystal-lasso.jpg"
+    },
+    {
+      "tier": 12,
+      "name": "Thunder Rope",
+      "rarity": "Mythical",
+      "power": "Maximum",
+      "cost": "500 rubies",
+      "costType": "rubies",
+      "costValue": 500,
+      "description": "Charged with lightning, maximum power for mythical animals.",
+      "image": "/images/lassos/thunder-rope.jpg"
+    },
+    {
+      "tier": 13,
+      "name": "Spectral Lasso",
+      "rarity": "Mythical",
+      "power": "Maximum",
+      "cost": "750 rubies",
+      "costType": "rubies",
+      "costValue": 750,
+      "description": "Ethereal properties ensure success on the rarest creatures.",
+      "image": "/images/lassos/spectral-lasso.jpg"
+    },
+    {
+      "tier": 14,
+      "name": "Rainbow Rope",
+      "rarity": "Divine",
+      "power": "Ultimate",
+      "cost": "1,250 rubies",
+      "costType": "rubies",
+      "costValue": 1250,
+      "description": "Ultimate power in a rainbow form. Catches anything reliably.",
+      "image": "/images/lassos/rainbow-rope.jpg"
+    },
+    {
+      "tier": 15,
+      "name": "Prism Lasso",
+      "rarity": "Divine",
+      "power": "Ultimate",
+      "cost": "2,000 rubies",
+      "costType": "rubies",
+      "costValue": 2000,
+      "description": "The ultimate lasso. Perfect catch rate on all animals.",
+      "image": "/images/lassos/prism-lasso.jpg"
+    }
+  ],
+  "totalLassos": 15,
+  "rarityTiers": [
+    "Common",
+    "Uncommon",
+    "Rare",
+    "Epic",
+    "Legendary",
+    "Mythical",
+    "Divine"
+  ],
+  "tips": {
+    "progression": "Start with basic lassos and gradually upgrade as you accumulate cash from selling animals and completing objectives.",
+    "bestValue": "Crystal Lasso offers flexibility, purchasable with either currency type.",
+    "endgame": "Divine-tier lassos (Rainbow Rope, Prism Lasso) catch legendary and mythical creatures reliably.",
+    "rubies": "Obtain premium rubies through redeem codes for faster progression to top-tier lassos."
+  },
+  "strategies": [
+    "Match lasso tier to target animal difficulty",
+    "Save rubies for mythical and divine tier lassos",
+    "Use codes to get free rubies for premium lassos",
+    "Crystal Lasso is the best value legendary option",
+    "Upgrade gradually as you earn more cash"
+  ]
+}

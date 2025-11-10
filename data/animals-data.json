@@ -1,0 +1,389 @@
+{
+  "page": "animals",
+  "source_url": "https://raiseanimals.com/animals",
+  "extracted_date": "2025-01-09",
+  "metadata": {
+    "title": "All Animals in Raise Animals - Complete Index | Raise Animals",
+    "description": "Discover every animal you can catch and raise in Roblox Raise Animals. Complete animal index with rarities, locations, and breeding information.",
+    "heading": "Complete Animal Index",
+    "introduction": "Explore all animals available in Raise Animals, from common creatures to legendary rarities."
+  },
+  "animals": [
+    {
+      "name": "Snake",
+      "slug": "snake",
+      "url": "https://raiseanimals.com/animals/snake",
+      "image": "/images/animals/snake.png",
+      "passive": "Speed 16-20: Gains a sudden 50% speed boost for 2 seconds, every 10 seconds.",
+      "region": "Desert"
+    },
+    {
+      "name": "Buffalo",
+      "slug": "buffalo",
+      "url": "https://raiseanimals.com/animals/buffalo",
+      "image": "/images/animals/buffalo.png",
+      "passive": "Speed 18-20: No passive",
+      "region": "Savanna"
+    },
+    {
+      "name": "Ostrich",
+      "slug": "ostrich",
+      "url": "https://raiseanimals.com/animals/ostrich",
+      "image": "/images/animals/ostrich.png",
+      "passive": "Speed 20-25: No passive",
+      "region": "Savanna"
+    },
+    {
+      "name": "Zebra",
+      "slug": "zebra",
+      "url": "https://raiseanimals.com/animals/zebra",
+      "image": "/images/animals/zebra.png",
+      "passive": "Speed 18-22: No passive",
+      "region": "Savanna"
+    },
+    {
+      "name": "Fish",
+      "slug": "fish",
+      "url": "https://raiseanimals.com/animals/fish",
+      "image": "/images/animals/fish.png",
+      "passive": "Speed 20-21: No passive",
+      "region": "Ocean"
+    },
+    {
+      "name": "Moose",
+      "slug": "moose",
+      "url": "https://raiseanimals.com/animals/moose",
+      "image": "/images/animals/moose.jpg",
+      "passive": "Speed 15-19: No passive",
+      "region": "Forest"
+    },
+    {
+      "name": "Yak",
+      "slug": "yak",
+      "url": "https://raiseanimals.com/animals/yak",
+      "image": "/images/animals/yak.png",
+      "passive": "Speed 17-21: No passive",
+      "region": "Arctic"
+    },
+    {
+      "name": "Toucan",
+      "slug": "toucan",
+      "url": "https://raiseanimals.com/animals/toucan",
+      "image": "/images/animals/toucan.jpg",
+      "passive": "Speed 19-23: No passive",
+      "region": "Jungle"
+    },
+    {
+      "name": "Seal",
+      "slug": "seal",
+      "url": "https://raiseanimals.com/animals/seal",
+      "image": "/images/animals/seal.png",
+      "passive": "Speed 20-26, Panic Splash: If you crash while riding, you do not die; you are forced into lasso mode and must catch a new animal to survive.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Jellyfish",
+      "slug": "jellyfish",
+      "url": "https://raiseanimals.com/animals/jellyfish",
+      "image": "/images/animals/jellyfish.png",
+      "passive": "Speed 20-24: No passive",
+      "region": "Ocean"
+    },
+    {
+      "name": "Bat",
+      "slug": "bat",
+      "url": "https://raiseanimals.com/animals/bat",
+      "image": "/images/animals/bat.png",
+      "passive": "Speed 15-18: No passive",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Owl",
+      "slug": "owl",
+      "url": "https://raiseanimals.com/animals/owl",
+      "image": "/images/animals/owl.png",
+      "passive": "Speed 16-19: No passive",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Crow",
+      "slug": "crow",
+      "url": "https://raiseanimals.com/animals/crow",
+      "image": "/images/animals/crow.png",
+      "passive": "Speed 16-19: No passive",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Tiger",
+      "slug": "tiger",
+      "url": "https://raiseanimals.com/animals/tiger",
+      "image": "/images/animals/tiger.png",
+      "passive": "Speed 21-25, Pounce: 70% increase in speed when close to target, activates a short lunge.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Walrus",
+      "slug": "walrus",
+      "url": "https://raiseanimals.com/animals/walrus",
+      "image": "/images/animals/walrus.png",
+      "passive": "Speed 11-15, Aqua Slide: Gains 10% stacking speed on snow up to 40%. Bonus fades when off the ice/snow.",
+      "region": "Arctic"
+    },
+    {
+      "name": "Elephant",
+      "slug": "elephant",
+      "url": "https://raiseanimals.com/animals/elephant",
+      "image": "/images/animals/elephant.png",
+      "passive": "Speed 7-9, Trample: Destroys trees and rocks without slowing down (CD 15 secs).",
+      "region": "Savanna"
+    },
+    {
+      "name": "Penguin",
+      "slug": "penguin",
+      "url": "https://raiseanimals.com/animals/penguin",
+      "image": "/images/animals/penguin.png",
+      "passive": "Speed 14-18, Slide Boost: 100% bonus speed while on ice.",
+      "region": "Arctic"
+    },
+    {
+      "name": "Giraffe",
+      "slug": "giraffe",
+      "url": "https://raiseanimals.com/animals/giraffe",
+      "image": "/images/animals/giraffe.png",
+      "passive": "Speed 12-14: No passive",
+      "region": "Savanna"
+    },
+    {
+      "name": "Turtle",
+      "slug": "turtle",
+      "url": "https://raiseanimals.com/animals/turtle",
+      "image": "/images/animals/turtle.png",
+      "passive": "Speed 16-20: No passive",
+      "region": "Ocean"
+    },
+    {
+      "name": "Crab",
+      "slug": "crab",
+      "url": "https://raiseanimals.com/animals/crab",
+      "image": "/images/animals/crab.png",
+      "passive": "Speed 20-22: No passive",
+      "region": "Ocean"
+    },
+    {
+      "name": "Ghost",
+      "slug": "ghost",
+      "url": "https://raiseanimals.com/animals/ghost",
+      "image": "/images/animals/ghost.png",
+      "passive": "Speed 18-21, Haunting Phase: Every 20s become ethereal for 5s: pass through obstacles, crash protect, and client fades to 0.5 opacity.",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Tarantula",
+      "slug": "tarantula",
+      "url": "https://raiseanimals.com/animals/tarantula",
+      "image": "/images/animals/tarantula.png",
+      "passive": "Speed 15-20, Widow's Pounce: Every 15s leap forward; gain 1s crash protect.",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Polar Bear",
+      "slug": "polar-bear",
+      "url": "https://raiseanimals.com/animals/polar-bear",
+      "image": "/images/animals/polar-bear.png",
+      "passive": "Speed 20-26, Ice Breaker: Can break ice structures. (CD 20 seconds)",
+      "region": "Arctic"
+    },
+    {
+      "name": "Gorilla",
+      "slug": "gorilla",
+      "url": "https://raiseanimals.com/animals/gorilla",
+      "image": "/images/animals/gorilla.png",
+      "passive": "Speed 18-24, Smash Through: Can break obstacles every 20 seconds.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Tralala",
+      "slug": "tralala",
+      "url": "https://raiseanimals.com/animals/tralala",
+      "image": "/images/animals/tralala.png",
+      "passive": "Speed 18-24, Unstable Tempo: Speed changes every few seconds, you are invincible for 0.5 seconds.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Ambalabu",
+      "slug": "ambalabu",
+      "url": "https://raiseanimals.com/animals/ambalabu",
+      "image": "/images/animals/ambalabu.png",
+      "passive": "Speed 23-27, Ambalabu Curse: Curses other animals and makes them slow down.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Ballerina",
+      "slug": "ballerina",
+      "url": "https://raiseanimals.com/animals/ballerina",
+      "image": "/images/animals/ballerina.png",
+      "passive": "Speed 22-26, Graceful Spin: Spins to charge up speed, while Ballerina is running you become immune.",
+      "region": "Savanna"
+    },
+    {
+      "name": "Shark",
+      "slug": "shark",
+      "url": "https://raiseanimals.com/animals/shark",
+      "image": "/images/animals/shark.png",
+      "passive": "Speed 26-28, Blood Frenzy: When an animal is within 16 studs, gain +30% speed. On collision with a target animal, devour it (5s cooldown).",
+      "region": "Ocean"
+    },
+    {
+      "name": "Whale",
+      "slug": "whale",
+      "url": "https://raiseanimals.com/animals/whale",
+      "image": "/images/animals/whale.png",
+      "passive": "Speed 18-22, Echo Pulse: Every 10s, emit a sonar ring that highlights nearby targets and slows them briefly.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Crocodile",
+      "slug": "crocodile",
+      "url": "https://raiseanimals.com/animals/crocodile",
+      "image": "/images/animals/crocodile.png",
+      "passive": "Speed 13-17, Devour: Can eat an animals directly in front.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Gargoyle",
+      "slug": "gargoyle",
+      "url": "https://raiseanimals.com/animals/gargoyle",
+      "image": "/images/animals/gargoyle.png",
+      "passive": "Speed 20-25, Stone Sentry: Spawn a small gargoyle guardian (CD 150s). If you would crash, the guardian absorbs it and dies.",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Lion",
+      "slug": "lion",
+      "url": "https://raiseanimals.com/animals/lion",
+      "image": "/images/animals/lion.gif",
+      "passive": "Speed 22-28, Predator Instinct: Gains 5% speed increase for every 10 animals eaten.",
+      "region": "Savanna"
+    },
+    {
+      "name": "Orca",
+      "slug": "orca",
+      "url": "https://raiseanimals.com/animals/orca",
+      "image": "/images/animals/orca.png",
+      "passive": "Speed 30-33, Call of the Pod: Every 30s, summon 2 spectral orcas for 15s that sweep straight ahead at 1.5x your speed, destroy obstacles and slow nearby animals for 3s.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Wood Wood Do",
+      "slug": "wood-wood-do",
+      "url": "https://raiseanimals.com/animals/wood-wood-do",
+      "image": "/images/animals/wood-wood-do.png",
+      "passive": "Speed 20-24, Wild Swing: Can randomly hit a creature, if it dies Wood will get a speed increase for 5 secs and you will become invincible for 2 secs.",
+      "region": "Forest"
+    },
+    {
+      "name": "Chimpazini",
+      "slug": "chimpazini",
+      "url": "https://raiseanimals.com/animals/chimpazini",
+      "image": "/images/animals/chimpazini.png",
+      "passive": "Speed 25-29, Jungle Instinct: Gains 10% more speed while in the Jungle, can destroy obstacles every 8 seconds.",
+      "region": "Jungle"
+    },
+    {
+      "name": "Narwhal",
+      "slug": "narwhal",
+      "url": "https://raiseanimals.com/animals/narwhal",
+      "image": "/images/animals/narwhal.png",
+      "passive": "Speed 27-32, Horn Charge: In the Tundra, hitting an obstacle will break them and give you a short dash.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Jack O Lantern",
+      "slug": "jack-o-lantern",
+      "url": "https://raiseanimals.com/animals/jack-o-lantern",
+      "image": "/images/animals/jack-o-lantern.png",
+      "passive": "Speed 20-21, Fear: Emits a constant aura that slows nearby animals by 20% within 18 studs.",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Golden Lion",
+      "slug": "golden-lion",
+      "url": "https://raiseanimals.com/animals/golden-lion",
+      "image": "/images/animals/golden-lion.png",
+      "passive": "Speed 28-32, Royal Aura: Slows nearby animals by 20% and every 10 animals eaten you get 5% increase in speed.",
+      "region": "Savanna"
+    },
+    {
+      "name": "Ice Mammoth",
+      "slug": "ice-mammoth",
+      "url": "https://raiseanimals.com/animals/ice-mammoth",
+      "image": "/images/animals/ice-mammoth.png",
+      "passive": "Speed 18-20, Frozen Rampage: Freezes the ground around it which slows nearby animals.",
+      "region": "Arctic"
+    },
+    {
+      "name": "Phoenix",
+      "slug": "phoenix",
+      "url": "https://raiseanimals.com/animals/phoenix",
+      "image": "/images/animals/phoenix.png",
+      "passive": "Speed 30-35, Rebirth: Revives you after crashing also giving +200% movement speed and immunity for 10 seconds.",
+      "region": "Mythical Realm"
+    },
+    {
+      "name": "Whale Shark",
+      "slug": "whale-shark",
+      "url": "https://raiseanimals.com/animals/whale-shark",
+      "image": "/images/animals/whale-shark.png",
+      "passive": "Speed 18-22, Plankton Vortex: Every 14s, create a 5s vortex that slows nearby target animals by 30%. Gain +40% speed for 4s and can break obstacles while empowered.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Headless Horse",
+      "slug": "headless-horse",
+      "url": "https://raiseanimals.com/animals/headless-horse",
+      "image": "/images/animals/headless-horse.png",
+      "passive": "Speed 23-28, Spectral Charge: Every 30s, charge for 10s: can destroy obstacles and eat animals.",
+      "region": "Halloween2025"
+    },
+    {
+      "name": "Savannah Ninja",
+      "slug": "savannah-ninja",
+      "url": "https://raiseanimals.com/animals/savannah-ninja",
+      "image": "/images/animals/savannah-ninja.png",
+      "passive": "Speed 29-34, Shadow Step: Every 12 seconds you teleport past an obstacle, this can happen up to 5 times in a row, then it refreshes.",
+      "region": "Savanna"
+    },
+    {
+      "name": "Medusa",
+      "slug": "medusa",
+      "url": "https://raiseanimals.com/animals/medusa",
+      "image": "/images/animals/medusa.png",
+      "passive": "Speed 22-26, Gorgon's Gaze: Every 12s, a 180° cone in front ramps enemies to a full petrify — movement eases to 0, then a brief stun, then recovery. Gain +5% speed and +2s obstacle break per target hit.",
+      "region": "Ocean"
+    },
+    {
+      "name": "Skeleton Horse",
+      "slug": "skeleton-horse",
+      "url": "https://raiseanimals.com/animals/skeleton-horse",
+      "image": "/images/animals/skeleton-horse.png",
+      "passive": "Speed 24-29, Bones Charge: Every 15s, charge for 10s: can destroy obstacles and eat animals.",
+      "region": "Halloween2025"
+    }
+  ],
+  "totalAnimals": 45,
+  "tips": {
+    "maximizeCatches": [
+      "Upgrade your lasso to catch faster-moving animals",
+      "Visit different biomes to expand your collection",
+      "Check out our complete catching guide for advanced techniques",
+      "Use active codes to get free rubies for premium lasso upgrades"
+    ],
+    "breedingForProfit": [
+      "Pair high-value animals to maximize offspring value",
+      "Legendary and Mythical animals have special breeding requirements",
+      "Feed animals regularly to increase their breeding success rate",
+      "Learn more about breeding strategies in our guides"
+    ],
+    "rareLocations": "Each biome has specific spawn locations for rare animals. Legendary and Mythical creatures only appear during special events or after meeting certain conditions. Visit our biome exploration guide to learn the best hunting spots."
+  }
+}
