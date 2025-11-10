@@ -60,7 +60,7 @@ export default function AnimalsPage() {
             <div className="relative h-48 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-600">
               <Image
                 src={animal.image}
-                alt={animal.imageAlt}
+                alt={animal.name}
                 fill
                 className="object-contain p-4"
                 unoptimized
@@ -69,7 +69,7 @@ export default function AnimalsPage() {
             <div className="p-6">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
-                  {animal.imageAlt}
+                  {animal.name}
                 </h3>
                 <span className={`px-3 py-1 rounded-full text-sm font-medium border ${regionColors[animal.region]}`}>
                   {animal.region}
