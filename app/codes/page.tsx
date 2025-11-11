@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import Image from 'next/image'
 import codesData from '@/data/codes-data.json'
 
 export default function CodesPage() {
@@ -14,23 +15,41 @@ export default function CodesPage() {
   }
 
   return (
-    <div className="container mx-auto px-4 py-12">
-      <div className="text-center mb-12">
-        <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
-          {metadata.heading}
-        </h1>
-        <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-          {metadata.introduction}
-        </p>
+    <div className="min-h-screen bg-gray-50">
+      {/* Banner Image */}
+      <div className="relative w-full h-96 mb-8">
+        <Image
+          src="/images/codes-banner.jpg"
+          alt="Raise Animals Codes Banner"
+          fill
+          className="object-cover"
+          priority
+          unoptimized
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <div className="container mx-auto px-4 py-12">
+            <h1 className="text-5xl md:text-6xl font-bold mb-4 text-white">
+              {metadata.heading}
+            </h1>
+            <p className="text-xl text-gray-100 max-w-3xl">
+              {metadata.introduction}
+            </p>
+          </div>
+        </div>
       </div>
 
+      <div className="container mx-auto px-4 py-12">
+
       <div className="mb-16">
-        <h2 className="text-3xl font-bold mb-6 text-center">Active Codes</h2>
+        <h2 className="text-3xl font-bold mb-6 text-center text-gray-900">Active Codes</h2>
+        <p className="text-center text-gray-600 mb-2">
+          Last updated: <strong>November 7, 2025</strong>
+        </p>
         <p className="text-center text-gray-600 dark:text-gray-300 mb-8">
           Click the copy button to copy each code to your clipboard:
         </p>
         <div className="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto">
-          {activeCodes.map((item, index) => (
+          {activeCodes.map((item: any, index: number) => (
             <div
               key={index}
               className="bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl p-1 shadow-lg hover:shadow-2xl transition-all duration-300"
@@ -38,8 +57,15 @@ export default function CodesPage() {
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 h-full">
                 <div className="flex items-center justify-between mb-3">
                   <div className="flex-1">
-                    <div className="text-2xl font-bold text-gray-900 dark:text-white mb-2 font-mono">
-                      {item.code}
+                    <div className="flex items-center gap-3 mb-2">
+                      <div className="text-2xl font-bold text-gray-900 dark:text-white font-mono">
+                        {item.code}
+                      </div>
+                      {item.isNew && (
+                        <span className="px-3 py-1 bg-gradient-to-r from-red-500 to-orange-500 text-white text-xs font-bold rounded-full animate-pulse">
+                          NEW
+                        </span>
+                      )}
                     </div>
                     <div className="text-sm text-gray-600 dark:text-gray-300">
                       <span className="font-semibold">Reward:</span> {item.reward}
@@ -101,42 +127,57 @@ export default function CodesPage() {
         </ul>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-12">
-        <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl p-6 text-white shadow-lg">
-          <h3 className="text-2xl font-bold mb-4">💰 Cash</h3>
-          <p className="mb-3 opacity-90">Use your cash to:</p>
-          <ul className="space-y-2">
-            {rewardUsage.cash.map((use, index) => (
-              <li key={index} className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>{use}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl p-6 text-white shadow-lg">
-          <h3 className="text-2xl font-bold mb-4">💎 Rubies</h3>
-          <p className="mb-3 opacity-90">Use your rubies to:</p>
-          <ul className="space-y-2">
-            {rewardUsage.rubies.map((use, index) => (
-              <li key={index} className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>{use}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl p-6 text-white shadow-lg">
-          <h3 className="text-2xl font-bold mb-4">🦁 Animals</h3>
-          <p className="mb-3 opacity-90">Free animals help you:</p>
-          <ul className="space-y-2">
-            {rewardUsage.animals.map((use, index) => (
-              <li key={index} className="flex items-start">
-                <span className="mr-2">•</span>
-                <span>{use}</span>
-              </li>
-            ))}
-          </ul>
+      <div className="mb-12">
+        <h2 className="text-3xl font-bold mb-8 text-center text-gray-900">How to Use Your Rewards</h2>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-all">
+            <h3 className="text-2xl font-bold mb-4">💎 Gems</h3>
+            <p className="mb-3 opacity-90 text-sm">Use your gems to:</p>
+            <ul className="space-y-2 text-sm">
+              {rewardUsage.gems.map((use: string, index: number) => (
+                <li key={index} className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>{use}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-gradient-to-br from-orange-500 to-red-600 rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-all">
+            <h3 className="text-2xl font-bold mb-4">🍬 Candy</h3>
+            <p className="mb-3 opacity-90 text-sm">Use your candy to:</p>
+            <ul className="space-y-2 text-sm">
+              {rewardUsage.candy.map((use: string, index: number) => (
+                <li key={index} className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>{use}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-all">
+            <h3 className="text-2xl font-bold mb-4">🪸 Coral</h3>
+            <p className="mb-3 opacity-90 text-sm">Use your coral to:</p>
+            <ul className="space-y-2 text-sm">
+              {rewardUsage.coral.map((use: string, index: number) => (
+                <li key={index} className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>{use}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl p-6 text-white shadow-lg hover:shadow-2xl transition-all">
+            <h3 className="text-2xl font-bold mb-4">🎰 Spins</h3>
+            <p className="mb-3 opacity-90 text-sm">Use your spins to:</p>
+            <ul className="space-y-2 text-sm">
+              {rewardUsage.spins.map((use: string, index: number) => (
+                <li key={index} className="flex items-start">
+                  <span className="mr-2">•</span>
+                  <span>{use}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -172,6 +213,7 @@ export default function CodesPage() {
             </ul>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

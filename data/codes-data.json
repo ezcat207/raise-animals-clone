@@ -1,45 +1,46 @@
 {
   "page": "codes",
   "source_url": "https://raiseanimals.com/codes",
-  "extracted_date": "2025-01-09",
+  "extracted_date": "2025-11-07",
   "metadata": {
-    "title": "Raise Animals Code - Latest Working Codes & Rewards | Raise Animals",
-    "description": "Get the latest raise animals code collection with working codes for free rubies, cash, and exclusive rewards. Updated daily with new raise animals codes for Roblox players.",
-    "heading": "Raise Animals Codes",
-    "introduction": "Welcome to the ultimate Raise Animals codes page! Here you'll find all the latest active codes for Raise Animals on Roblox. These codes give you free rewards like cash, rubies, and animals to enhance your gameplay experience."
+    "title": "Raise Animals Codes (November 2025) - Free Gems, Candy & Corals",
+    "description": "Here is the list of all new Raise Animals codes that will give you free gems, candy, corals, and other valuable rewards. Updated November 2025!",
+    "heading": "Raise Animals Codes (November 2025)",
+    "introduction": "Are you tired of growing pets in a garden game? Well, Raise Animals is a Roblox game all about the pets. Here, you catch animals from the wild, raise them in your garden by feeding them, and collect money from tourists who visit you. Get free gems, cash, candy, and corals with these active codes!"
   },
   "activeCodes": [
     {
-      "code": "SorryForAllTheBugs",
-      "reward": "1k Coral and 500 Gems"
+      "code": "Primordial",
+      "reward": "2500 Gems",
+      "isNew": true
     },
     {
-      "code": "Update1",
-      "reward": "500 Gems and 500 Coral"
+      "code": "Sorry4Bugs!",
+      "reward": "1000 Gems, 1000 Corals, and 1000 Candy"
     },
     {
-      "code": "50MVisitsTysm",
-      "reward": "1k Gems"
+      "code": "TRADING!!!",
+      "reward": "2500 Gems, 5 Spins, and 5000 Candy"
     },
     {
-      "code": "Ocean",
-      "reward": "250 Gems, 1k Cash, and 500 Coral"
+      "code": "1MGroupMembers",
+      "reward": "1000 Gems"
     },
     {
-      "code": "10KActiveTysm",
-      "reward": "10k Cash and 300 Gems"
+      "code": "HappyHalloween!",
+      "reward": "200 Gems and 1500 Candy"
     },
     {
-      "code": "SryForTheGamepassIssue",
-      "reward": "500 Gems and 10k Cash"
+      "code": "HALLOWEEN2025!",
+      "reward": "500 Gems and 500 Candy"
     },
     {
-      "code": "Release!",
-      "reward": "5k Cash and 500 Gems"
+      "code": "150MVisitsTysm",
+      "reward": "1000 Gems"
     },
     {
-      "code": "FREE RANDOM ANIMALS",
-      "reward": "3 Animals and 25k Cash"
+      "code": "FreeCorals",
+      "reward": "1000 Coral and 150 Gems"
     }
   ],
   "totalCodes": 8,
@@ -97,23 +98,29 @@
     "Stay Updated: Bookmark this page and check back regularly for new codes"
   ],
   "rewardUsage": {
-    "cash": [
-      "Purchase new animals",
-      "Upgrade your existing animals",
-      "Buy food and supplies for your animals",
-      "Unlock new habitats and areas"
-    ],
-    "rubies": [
+    "gems": [
       "Buy premium animals and rare species",
       "Purchase exclusive decorations and items",
       "Unlock special features and upgrades",
       "Speed up animal growth and breeding"
     ],
-    "animals": [
-      "Expand your collection without spending resources",
-      "Start breeding programs with new species",
-      "Discover rare animal combinations",
-      "Build a diverse animal sanctuary"
+    "candy": [
+      "Halloween event currency",
+      "Buy special Halloween-themed animals",
+      "Purchase exclusive Halloween decorations",
+      "Unlock limited-time Halloween features"
+    ],
+    "coral": [
+      "Ocean biome currency",
+      "Purchase marine and aquatic animals",
+      "Buy underwater decorations and habitats",
+      "Unlock ocean-themed special features"
+    ],
+    "spins": [
+      "Spin the reward wheel for prizes",
+      "Win rare animals and items",
+      "Get random gems, candy, or coral rewards",
+      "Chance at exclusive limited rewards"
     ]
   },
   "troubleshooting": {
